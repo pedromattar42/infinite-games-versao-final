@@ -57,12 +57,12 @@ header{
 
 .menu{
     float: right;
-    margin-top: -5rem;
+    margin-top: -6rem;
     margin-right: 2rem;
 }
 
 .botao-menu{
-    background-image: url("imgs/menu-botao.png");
+    background-image: url('/imgs/menu-botao.png');
 
     width: 46px;
     height: 45px;

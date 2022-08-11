@@ -1,5 +1,6 @@
-let to = new Date('oct 07 2022 18:25:58')
 
+// CONTAGEM REGRESSIVA - utilizei o código de uma vídeo aula no youtube - link: https://www.youtube.com/watch?v=Jp4jlQ2JHyU
+let to = new Date('oct 07 2022 18:25:58') 
 
     function update(params) {
         let from = new Date()
@@ -33,10 +34,11 @@ let to = new Date('oct 07 2022 18:25:58')
    
 // CHAVEADOR DE MENU
 
-var menuBotao = document.querySelector('.js-botao')
+var menuBotao = document.querySelector('.js-botao') // seleciona a classe relacionada ao botão que irá exibir o menu em dispositivos de telas pequenas
 
-menuBotao.onclick = function(){
+menuBotao.onclick = function(){ // função que irá disparar o bloco de instruções abaixo ao clicar no botão de menu 
     var menu = document.querySelector('.js-menu-itens-header')
 
-    menu.classList.toggle('menu-responsivo-exibir')
+    menu.classList.toggle('menu-responsivo-exibir') // uso do toogle para chavear a classe selecionada e tornar o display da classe 'menu-itens-header' de none para block
+                                                    // o que irá exibir o menu na lateral esquerda da página com suas respectivas funções
 }
