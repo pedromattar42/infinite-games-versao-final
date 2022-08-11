@@ -21,9 +21,8 @@ let to = new Date('oct 07 2022 18:25:58')
             clearInterval(interval)
             document.querySelector('body').classList.add('alert')
         }
-
     }
-        
+
     let interval = setInterval(update, 1000)
 
     function setTwoDigi(argument) {
@@ -32,3 +31,12 @@ let to = new Date('oct 07 2022 18:25:58')
     }
 
    
+// CHAVEADOR DE MENU
+
+var menuBotao = document.querySelector('.js-botao')
+
+menuBotao.onclick = function(){
+    var menu = document.querySelector('.js-menu-itens-header')
+
+    menu.classList.toggle('menu-responsivo-exibir')
+}
