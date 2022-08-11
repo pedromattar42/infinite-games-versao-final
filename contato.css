@@ -51,3 +51,21 @@
     margin-left: 30rem;
 }
 
+@media(max-width: 768px){
+    .imagem-contato{
+        width: 500px;
+        height: 300px;
+        margin-left: -20rem;
+        margin-top: 15rem;
+    }
+
+   .contato-informacoes{
+        margin-left: -10rem;
+   }
+
+   .redes-sociais-container{
+        margin-left: -32rem;
+   }
+}
+
+

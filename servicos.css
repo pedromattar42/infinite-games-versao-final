@@ -133,9 +133,25 @@ h1{
 
     margin-top: 4rem;
 
-    width: 40%;
+    width: 600px;
 
     padding: 5rem 0;
 
     margin-left: 44rem;
+}
+
+@media(max-width: 768px){
+    .servicos-container{
+        margin-left: -50rem;
+    }
+
+    .servicos-parcerias{
+        margin-left: -3rem;
+    }
+
+    .wrapper{
+        margin-top: 15rem;
+        margin-left: 18rem;
+        padding-bottom: 5rem;
+    }
 }
