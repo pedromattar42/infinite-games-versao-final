@@ -8,12 +8,13 @@ h1{
 
 .wrapper{
     display: flex;
-    margin-left: 50rem;
+    margin-left: 48rem;
 }
+
 
 .contagem-regressiva{
     text-align: center;
-    margin-top: 10rem;
+    padding-top: 15rem;
 
     color: #FF6B43;
 }

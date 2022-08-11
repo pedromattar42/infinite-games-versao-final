@@ -3,8 +3,8 @@
 	position: relative;
 }
 
-.login-link{
-	cursor: pointer;
+.container-inicio-home{
+	padding-top: 10rem;
 }
 
 .card-imagem-console{
@@ -105,7 +105,7 @@
 
 .aviso{
 	margin-top: 15rem;
-
+	width: 80%;
 }
 
 .aviso-jogos{
@@ -131,7 +131,23 @@
 		margin-top: 10rem;
 		margin-left: 5rem;
 	}
+
+	.card-imagem-console{
+		margin-left: 5rem;
+	}
+
+	.texto-pagina-inicial{
+		width: 40%;
+	}
+
+	.aviso-jogos{
+		width: 40%;
+		height: 60%;
+	}
+
 }
+
+
 
 .titulo-lancamentos{
 	margin-top: 18rem;

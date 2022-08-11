@@ -11,3 +11,21 @@
     color: #FF6B43;
 }
 
+.about-us-container{
+    padding-top: 10rem;
+}
+
+@media(max-width: 768px){
+    .imagem-about-us{
+        margin-top: 10rem;
+        margin-left: -10rem;
+
+        width: 400px;
+        height: 350px;
+    }
+
+    .about-us-container{
+        margin-top: 0rem;
+        width: 50%;
+    }
+}

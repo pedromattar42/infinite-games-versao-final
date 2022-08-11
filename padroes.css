@@ -19,10 +19,8 @@ a{
 }
 
 .logo{
-	width: 70px;
-	height: 70px;
-
-	margin-top: 10px;
+	width: 90px;
+	height: 90px;
 }
 
 
@@ -46,7 +44,7 @@ header{
     top: 0;
     z-index: 2000;
 
-    padding-bottom: 5rem;
+   
 }
 
 .container{
